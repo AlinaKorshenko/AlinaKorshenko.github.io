@@ -1,0 +1,22 @@
+.checklist{
+    list-style-type: none;
+}
+
+
+
+
+.checked {
+    padding-left: 25px;
+    background-size: 18px 18px;
+    background-position: left center;
+    background-image: url("../gechekt.png");
+    background-repeat: no-repeat;
+}
+
+.checklist li:not(.checked){
+    padding-left: 25px;
+    background-size: 18px 18px;
+    background-position: left center;
+    background-image: url("../th.jpg");
+    background-repeat: no-repeat;
+}
