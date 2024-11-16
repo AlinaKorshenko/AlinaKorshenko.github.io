@@ -1,0 +1,43 @@
+body{
+    font-size: 2em;
+}
+td, th{
+    border-left:  dotted;
+    border-top:  dotted;
+    padding: 0px;
+    margin: 0px;
+}
+table {
+    border: 5px, solid black;
+    padding: 0px;
+    margin: 0px;
+    border-collapse: collapse;     /** borders van kind elements samen*/
+}
+
+.maand {
+    background-color: #AAAAC8;
+}
+
+.dag
+{
+    background-color: #232546;
+    color: #C8BEF0;
+}
+
+table > tbody > tr> td:first-child{
+    background-color: #FFDCDC;
+}
+
+table > tbody > tr> td:last-child{
+    background-color: #FFDCDC;
+}
+
+.anderemaand {
+    background-color: grey!important;
+    color: dimgrey;
+
+}
+
+.feestdag{
+    background-color: #FA7878;
+}

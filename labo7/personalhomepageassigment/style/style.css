@@ -1,0 +1,72 @@
+body {
+    font-size: 1.2em;
+    font-family: Verdana, sans-serif;
+    width: 95%;
+    margin: auto;
+    background-image: url("../th.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+header {
+    background-color: antiquewhite;
+    color: brown;
+    margin: 0px;
+    padding-left: 20px;
+    padding-right: 10px;
+    margin-bottom: 10px;
+}
+section {
+    color: antiquewhite;
+}
+
+li{
+    list-style-type: none;
+}
+
+a{
+    color: orange;
+    text-decoration: none;
+}
+a:hover{
+    border: 2px solid antiquewhite;
+    margin: 2px;
+    padding:2px;
+
+}
+section > ui > li > a{
+    font-size: 1.4em;
+}
+section > h2{
+    text-decoration: underline;
+    font-size: 1.8em;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+div> table { border-collapse: collapse; text-align: left; width: 100%; }
+div {font: normal 12px/150% Arial, Helvetica, sans-serif; background: #fff; overflow: hidden; border: 1px solid #991821; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; }
+div  table td,
+div table th { padding: 3px 10px; }
+div table thead th {background:  -webkit-gradient( linear, left top, left bottom, color-stop(0.05, #991821), color-stop(1, #80141C) )background:-moz-linear-gradient( center top, #991821 5%, #80141C 100% );filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#991821', endColorstr='#80141C');background-color:#991821; color:#FFFFFF; font-size: 15px; font-weight: bold; border-left: 1px solid #B01C26; }
+div table thead th:first-child { border: none; }
+div table tbody td { color: #80141C; border-left: 1px solid #F7CDCD;font-size: 12px;font-weight: normal; }
+div table tbody .alt td { background: #F7CDCD; color: #80141C; }
+div table tbody td:first-child { border-left: none; }
+div table tbody tr:last-child td { border-bottom: none; }
+div table tfoot td div { border-top: 1px solid #991821;background: #F7CDCD;}
+div table tfoot td { padding: 0; font-size: 12px }
+div table tfoot td div{ padding: 2px; }
+.onbekend {background-color: red;}
+tr.alt td.onbekend {background-color: red;}

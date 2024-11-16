@@ -1,0 +1,21 @@
+body{
+    margin: 0px;
+    background-color: #EDF2F4;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header {
+    height: 550px;
+    background-image: url("../images/5814357e8b8efa3e9c5c58eb4bb4a926.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;                      /** dan past size aan*/
+    background-color:#FFFFFF ;
+
+}
+
+header h1 {
+    margin: 0px;
+    color: red;
+}

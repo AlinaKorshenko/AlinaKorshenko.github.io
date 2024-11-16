@@ -20,3 +20,8 @@
     background-image: url("../th.jpg");
     background-repeat: no-repeat;
 }
+/**.checked ::before {
+    content: url("../gechekt.png");
+    content-size : 18px 18px;
+
+}*/
