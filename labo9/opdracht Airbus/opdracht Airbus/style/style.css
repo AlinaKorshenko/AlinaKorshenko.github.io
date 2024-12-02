@@ -1,0 +1,164 @@
+body {
+    margin: 0px auto;
+    padding: 0px;
+    font-family: Arial-lettertype, Helvetica, sans-serif;
+    width: 95%;
+
+}
+
+header{
+    height: 200px;
+    text-align: center;
+    background-image: url("../images/bgsky3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    color: darkblue;
+}
+
+header:first-line{
+    font-size: 240%;
+    font-style: italic;
+
+}
+header p {
+    font-size:240%;
+    font-weight: bold;
+
+}
+
+
+header img{
+position: relative;
+    bottom: 170px;
+    left: 170px;
+
+}
+article{
+    float: right;
+    width: 25%;
+    box-sizing: border-box;
+    border: 1px solid #999999;
+    background-color:  #dddddd;
+
+}
+
+article h3{
+    color: white;
+    background-color: blue;
+    font-size: 120%;
+    text-align: center;
+
+}
+article p {
+    color: #666666;
+    font-size: 90%;
+    margin: 0px 10px 0px 10px;
+}
+
+body main{
+    width: 75%;
+    text-align: justify;
+}
+
+#logo {
+    float: left;
+    margin: 20px 20px 0px 20px;
+
+}
+
+
+
+#text{
+
+    float: right;
+    width: 70%;
+    margin-left:auto ;
+    margin-right: auto;
+    padding: 20px 30px 20px 0px;
+}
+#text p span{
+    color: blue;
+    font-weight: bold;
+    font-style: italic;
+}
+
+
+
+#beelden{
+    display: table;
+    height: 200px;
+    background-color:#999999;
+    border-spacing: 20px;
+    border-collapse: separate;
+    padding-right: 175px;
+}
+
+.foto{
+    border: 2px dashed #999999;
+    display: table-cell;
+    padding: 10px;
+    background-color: white;
+
+
+
+}
+
+.row{
+    display: table-row;
+
+}
+
+#bottom{
+    display: block;
+    background-color: #666666 ;
+color: white;
+    line-height: 2em;
+
+}
+#bottom #block1{
+    display: inline-block;
+margin-left: 120px;
+}
+
+#bottom #block2{
+    display: inline-block;
+    margin-left: 120px;
+}
+#bottom a{
+
+    color: white;
+}
+#bottom a:hover{
+    color: red;
+}
+
+#copyright{
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
