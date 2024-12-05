@@ -88,10 +88,11 @@ body main{
 #beelden{
     display: table;
     height: 200px;
+    width: 100%;
     background-color:#999999;
     border-spacing: 20px;
     border-collapse: separate;
-    padding-right: 175px;
+    box-sizing: revert;
 }
 
 .foto{
