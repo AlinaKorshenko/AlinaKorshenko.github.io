@@ -1,0 +1,57 @@
+body {
+    font-size: 1.2em;
+    font-family: Verdana, sans-serif;
+    width: 95%;
+    margin: auto;
+    background-image: url("../th.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+header {
+    background-color: antiquewhite;
+    color: brown;
+    margin: 0px;
+    padding-left: 20px;
+    padding-right: 10px;
+    margin-bottom: 10px;
+}
+section {
+    color: antiquewhite;
+}
+
+li{
+    list-style-type: none;
+}
+
+a{
+    color: orange;
+    text-decoration: none;
+}
+a:hover{
+    border: 2px solid antiquewhite;
+    margin: 2px;
+    padding:2px;
+
+}
+section > ui > li > a{
+    font-size: 1.4em;
+}
+section > h2{
+    text-decoration: underline;
+    font-size: 1.8em;
+
+}
+.box {
+
+}
+
+
+
+
+
+
+
+
+

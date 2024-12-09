@@ -1,0 +1,15 @@
+
+.boxDark{
+
+    background-color: darkgrey;
+    text-align: center;
+    height: 150px;
+    border: 10px solid white;
+}
+.boxlicht{
+
+    background-color: lightgrey;
+    text-align: center;
+    height: 150px;
+    border: 10px solid white;
+}

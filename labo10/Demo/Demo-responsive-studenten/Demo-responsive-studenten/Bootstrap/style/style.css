@@ -15,11 +15,13 @@ header {
 #left {
     background-color:lightblue;
     min-height: 200px;
+    float: left;
 }
 
 #right {
     background-color:lightcoral;
     min-height: 200px;
+    float: right;
 }
 
 footer {
