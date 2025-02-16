@@ -1,0 +1,205 @@
+/** Volgende CSS gaan we ze geven **/
+.respimg {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: Helvetica sans-serif;
+}
+
+h1{
+    text-transform: uppercase;
+    font-size: 2.5em;
+
+}
+ .foto{
+     margin-bottom: 25px;
+
+ }
+
+header{
+    border-bottom: 1px solid #ebe8e8;
+    width: 980px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+nav{
+    width: 980px;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto;
+
+}
+nav span{
+     border-right: 1px solid #ebe8e8;
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    color: #5b4746;
+    font-size: 13px;
+    text-transform: uppercase;
+
+
+}
+nav span:hover{
+border-bottom: 2px solid #fff100;
+}
+
+nav span:last-child{
+
+    border-right: 0px;
+}
+
+main{
+    border-top: 1px solid #ebe8e8;
+
+
+}
+main article {
+    width: 980px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+article section#articl{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto auto auto;
+    grid-template-areas: 'text1 beeld1'
+                          'text2 beeld2'
+                          'text3 beeld3';
+    grid-gap: 15px;
+
+}
+main article section#articl div.text{
+    border-top: 1px solid grey;
+
+}
+main article section#articl div.text h3{
+    text-transform: uppercase;
+    font-size: 1.2em;
+    color: #ff4d56;
+letter-spacing: 1px;
+ }
+main article section#articl div.text p{
+    color: #666;
+    line-height: 2;
+}
+main article section#articl div.text span.auteur{
+    padding-right: 10px;
+    border-right: 1px solid #ebe8e8;
+    font-style: italic;
+    color : #ebe8e8;
+}
+main article section#articl div.text span.time{
+    padding-left: 10px;
+    color : #666;
+}
+
+
+
+main article section#articl  div.beeld1{
+    grid-area: beeld1;
+
+}
+main article section#articl div.beeld2{
+    grid-area: beeld2;
+
+}
+
+main article section#articl div.beeld3{
+    grid-area: beeld3;
+
+}
+main article section#articl div.text1{
+    grid-area: text1;
+
+}
+
+main article section#articl div.text2{
+    grid-area: text2;
+
+}
+
+main article section#articl div.text3{
+    grid-area: text3;
+
+}
+
+
+main section#start{
+    border-bottom: 0px;
+    width: 100%;
+    background-image: url("imagesKitchn/headerimage.jpg");
+    height: 500px;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    text-shadow: 0px 2px 2px #8D99AE;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+main article section h1{
+    border-bottom: 2px solid black;
+    font-size: 30px;
+    text-transform: uppercase;
+
+}
+
+footer {
+    border-top: 1px solid #ebe8e8;
+}
+footer div#left{
+    float: left;
+    line-height: 2;
+    width: 50%;
+    padding: 20px;
+    text-align: right;
+}
+footer div#right{
+    float: right;
+    line-height: 2;
+    width: 50%;
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+
+
+
+
+
+@media screen and (max-width: 1000px){
+    header {
+        width: 750px;
+    }
+    nav {
+        width: 750px;
+    }
+    main article {
+        width: 750px;
+    }
+
+}
+@media screen and (max-width: 770px) {
+    header {
+        width: 600px;
+
+    }
+
+    nav {
+        width: 600px;
+    }
+
+    main article {
+        width: 600px;
+    }
+}
