@@ -1,6 +1,6 @@
 const setup = () => {
 
-    let lblCursus = document.getElementById("lblCursus");
+    /*let lblCursus = document.getElementById("lblCursus");
     lblCursus.addEventListener("mouseover",change);
 
 
@@ -15,15 +15,16 @@ const setup = () => {
 }
 
 
-const show = () => {
+/*const show = () => {
     let txtName = document.getElementById("txtName");
 
     if (txtName.value !== "") {
 
         alert("jouw naam is " + txtName.value);
 
-        console.log("jouw naam is " + txtName.value);
-        console.log('jouw naam is + ${txtName.value}');
+        */txtName = "jelf";
+console.log("jouw naam is " + txtName);
+        console.log(`jouw naam is ${txtName}`);/*
 
     }
     else{
@@ -36,7 +37,7 @@ const show = () => {
 const change = () => {
     let lblCursus = document.getElementById("lblCursus");
     lblCursus.className = "cursus";
-}
+}*/
 
 
 

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulier</title>
+</head>
+<script>
+    window.addEventListener('load', (event) => {
+        document.getElementById('name').focus();
+    });
+</script>
+<body>
+
+<h2>Personal Information</h2>
+
+
+<form action="" method="post" autofocus="autofocus">
+    <label for="fname">First name: </label>
+    <input id="name" type="text" id ="fname" required placeholder="Your first name">
+    <br />
+    <label for="sname">First name: </label>
+    <input type="text" id ="sname" required placeholder="Your last name">
+
+<h2>Sports</h2>
+<p>Which sport do you train?</p>
+
+    <input type="checkbox" name="running" value="r"  />Running<br/>
+    <input type="checkbox" name="swimming" value="s" />Swimming<br/>
+    <input type="checkbox" name="rowing" value="row"  />Rowing
+
+
+    <h2>Gender</h2>
+    <input type="radio" name=="gender" value="m" /> Male <br/>
+    <input type="radio" name=="gender" value="f" /> Female <br/>
+    <input type="radio" name=="gender" value="o" /> Other/ prefer not to say <br/>
+
+    <h2>Favorietes</h2>
+
+    <label for="movie">Favorite movie: </label>
+    <input type="text" id ="movie">
+    <br />
+    <label for="quote">Favorite quote: </label>
+    <input type="text" id ="quote"  placeholder="Write your favorite quote">
+    <br />
+    <label for="food">Favorite food: </label>
+    <input list="food" name="food" />
+    <datalist id="food" >
+        <option value="Hamburger">
+        <option value="Hot Dog">
+        <option value="Pizza">
+    </datalist>
+ <br/>
+    <label for="flavor">Choose a flavor : </label>
+    <input type="text" id ="flavor">
+
+    <h2> Secutity & Contact</h2>
+    <label for="password">Password: </label>
+    <input type="password" id ="password" required>
+<br/>
+    <label for="e-mail">E-mail: </label>
+    <input type="email" id ="e-mail" required placeholder="Enter you e-mail adress">
+    <br/>
+
+    <label for="web">Favorite website: </label>
+    <input type="url" id ="web" required placeholder="Enter the URL of you favorite website">
+
+
+    <h2>Additional Information</h2>
+
+    <label for="nummer">Favorite number(1-10): </label>
+    <input type="number" id ="nummer" max="10">
+<br/>
+    <label for="nummerhigh">Favorite number(11-1000): </label>
+    <input type="range" id ="nummerhigh" max="1000" min="11">
+
+    <br/>
+    <label for="born">When were you botn? </label>
+    <input type="date" id ="born">
+
+<br/>
+    <label for="zip">Belgium zip-code reg number*: </label>
+    <input type="text" id ="zip" maxlength="4" required placeholder="9999">
+
+    <br/>
+    <input type="submit" value="Submit" />
+</form>
+
+<script type="text/javascript" charset="utf-8" src="scripts/code.js"></script>
+</body>
+</html>
